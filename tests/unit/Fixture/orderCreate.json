@@ -1,0 +1,14 @@
+{
+  "status": {
+    "id": 200,
+    "message": "OK"
+  },
+  "orderId": 5499,
+  "total_order_cost": 60.450000000000003,
+  "total_order_cost_in_currency": 60.450000000000003,
+  "total_order_cost_net": 60.450000000000003,
+  "total_order_cost_net_in_currency": 60.450000000000003,
+  "bookingReferences": [
+    "GB-000170-465-5499-5286"
+  ]
+}

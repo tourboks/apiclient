@@ -1,0 +1,64 @@
+{
+  "item": [
+    {
+      "id": 5,
+      "title": "布達佩斯塞切尼溫泉浴場門票",
+      "shortDescription": "塞切尼溫泉浴場是布達佩斯乃至整個歐洲最大的綜合溫泉浴場。這也是佩斯（Pest 布達佩斯由布達和佩斯兩部分組成 ）的第一個溫泉浴場。來享受獨特的溫泉水療，讓您的身心重獲新生！",
+      "city": "布達佩斯",
+      "country": "匈牙利",
+      "media": [
+        {
+          "id": 6,
+          "mime": "image/jpeg",
+          "url": "/assets/media/SUPPLIERS/EHU05/15355712048_c0ded46a10_o_6.jpg",
+          "embed": "",
+          "width": 960,
+          "height": 639,
+          "title": "Szechenyi Spa Entry Tickets in Budapest & Danube River Dinner Cruise with Live Music"
+        }
+      ],
+      "onlinePrice": "20.00",
+      "retailPrice": "20.00",
+      "netPrice": "18.80",
+      "sportTeam": "",
+      "cats": [
+        {
+          "id": 5,
+          "title": "景點與古跡門票"
+        },
+        {
+          "id": 24,
+          "title": "戶外活動"
+        },
+        {
+          "id": 36,
+          "title": "養生及溫泉之旅"
+        }
+      ],
+      "availableServices": [
+        {
+          "service": "信息小冊子 ",
+          "language": "英文"
+        },
+        {
+          "service": "信息小冊子 ",
+          "language": "日語"
+        },
+        {
+          "service": "信息小冊子 ",
+          "language": "德語"
+        },
+        {
+          "service": "信息小冊子 ",
+          "language": "意大利語"
+        }
+      ],
+      "duration": "46800",
+      "isBestSeller": 0,
+      "latitude": "47.519171551489",
+      "longitude": "19.080591201782",
+      "distance": "0.00",
+      "rating": "5.00"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "tourboks/apiclient",
+    "description": "Tourboks API client for PHP",
+    "keywords": ["tourboks","api","client","apiclient"],
+    "type": "library",
+    "homepage": "https://github.com/tourboks/apiclient",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tourboks",
+            "homepage": "https://github.com/tourboks/apiclient/graphs/contributors"
+        }
+    ],
+    "support": {
+        "email": "info@tourboks.com"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Tourboks" : "src"
+        }
+    }
+}

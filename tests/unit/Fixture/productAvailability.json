@@ -1,0 +1,36 @@
+{
+  "timeslots": [
+    {
+      "id": 15335,
+      "componentKey": "",
+      "durationTime": "20:00 - 21:30",
+      "onlinePrice": "48.00",
+      "netPrice": "45.12"
+    }
+  ],
+  "liveGuides": [
+    {
+      "id": 15335,
+      "language": "English",
+      "price": "700"
+    }
+  ],
+  "extras": [
+    {
+      "id": 454,
+      "title": "Hotel pick up & drop off service",
+      "price": [
+        {
+          "personType": "-1",
+          "personDescription": " Everyone",
+          "onlinePrice": "14",
+          "netPrice": "13.16"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": 200,
+    "message": "OK"
+  }
+}

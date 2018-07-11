@@ -1,0 +1,33 @@
+{
+  "status": {
+    "id": 200,
+    "message": "OK"
+  },
+  "orders": [
+    {
+      "id": 2235,
+      "orderItem": [
+        {
+          "id": 1866,
+          "productId": 505,
+          "title": "Athens Shopping Therapy Tour",
+          "currency": "EUR",
+          "totalProductCost": "96.63",
+          "media": {
+            "id": 2545,
+            "title": "Athens Shopping Therapy Tour",
+            "URI": "/assets/media/",
+            "width": 900,
+            "height": 596,
+            "mime": "image/jpeg"
+          },
+          "dateSelected": "2017-06-13",
+          "downloadInvoiceUrl": "",
+          "downloadVoucherUrl": "",
+          "invoiceUrl": "",
+          "voucherUrl": ""
+        }
+      ]
+    }
+  ]
+}

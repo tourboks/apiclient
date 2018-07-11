@@ -1,0 +1,270 @@
+{
+  "productStatus": 2,
+  "latitude": "47.50085823929084",
+  "longitude": "19.04978313537299",
+  "zoom": 15,
+  "productUrl": "folklore-show---the-danube-folk-ensemble",
+  "startDate": "2018-07-17",
+  "endDate": "2018-10-31",
+  "startTime": "",
+  "timeslots": [
+    {
+      "id": 15335,
+      "timeFrom": "20:00",
+      "timeTo": "21:30",
+      "seasonID": 0
+    }
+  ],
+  "pricingSeasons": [
+    {
+      "id": 0,
+      "dateFrom": "2018-08-17",
+      "dateTo": "2018-09-17"
+    }
+  ],
+  "pricings": [
+    {
+      "pricingSeasonID": 0,
+      "variantID": 17,
+      "timeslotID": 0,
+      "onlinePrice": "37.00",
+      "retailPrice": "37.00",
+      "personType": "8",
+      "netPrice": "34.78"
+    },
+    {
+      "pricingSeasonID": 0,
+      "variantID": 18,
+      "timeslotID": 0,
+      "onlinePrice": "33.00",
+      "retailPrice": "33.00",
+      "personType": "8",
+      "netPrice": "31.02"
+    },
+    {
+      "pricingSeasonID": 0,
+      "variantID": 1585,
+      "timeslotID": 0,
+      "onlinePrice": "24.00",
+      "retailPrice": "24.00",
+      "personType": "8",
+      "netPrice": "22.56"
+    }
+  ],
+  "postCode": "1051",
+  "duration": 4200,
+  "minimumCapacity": 1,
+  "maximumCapacity": 20,
+  "exactDate": 0,
+  "difficulty": "",
+  "bookingLeadTimeMin": 0,
+  "bookingLeadTimeMax": 0,
+  "isBestSeller": 0,
+  "isBirthdateRequired": 0,
+  "isIdRequired": 0,
+  "hasHotelPickup": 0,
+  "isNameRequired": 0,
+  "category": 0,
+  "subCategory": 1,
+  "schedule": [
+    {
+      "startDate": "",
+      "endDate": "",
+      "weekdays": "0101000"
+    }
+  ],
+  "variants": [
+    {
+      "id": "17",
+      "title": "I. Category Ticket"
+    },
+    {
+      "id": "18",
+      "title": "II. Category Ticket"
+    },
+    {
+      "id": "1585",
+      "title": "III. Category Ticket"
+    }
+  ],
+  "blockOutDates": [
+    {
+      "startDate": "2017-12-01",
+      "endDate": "2018-04-30"
+    },
+    {
+      "startDate": "2017-12-26",
+      "endDate": "2017-12-26"
+    },
+    {
+      "startDate": "2017-12-28",
+      "endDate": "2017-12-28"
+    },
+    {
+      "startDate": "2018-03-17",
+      "endDate": "2018-03-17"
+    },
+    {
+      "startDate": "2018-03-31",
+      "endDate": "2018-03-31"
+    },
+    {
+      "startDate": "2018-04-01",
+      "endDate": "2018-04-02"
+    },
+    {
+      "startDate": "2018-05-05",
+      "endDate": "2018-05-05"
+    },
+    {
+      "startDate": "2018-05-09",
+      "endDate": "2018-05-09"
+    },
+    {
+      "startDate": "2018-07-02",
+      "endDate": "2018-07-02"
+    },
+    {
+      "startDate": "2018-07-23",
+      "endDate": "2018-07-31"
+    },
+    {
+      "startDate": "2018-08-01",
+      "endDate": "2018-08-01"
+    },
+    {
+      "startDate": "2018-08-06",
+      "endDate": "2018-08-06"
+    },
+    {
+      "startDate": "2018-08-08",
+      "endDate": "2018-08-08"
+    },
+    {
+      "startDate": "2018-08-20",
+      "endDate": "2018-08-20"
+    },
+    {
+      "startDate": "2018-10-24",
+      "endDate": "2018-10-24"
+    }
+  ],
+  "media": [
+    {
+      "id": 89,
+      "mime": "image/jpeg",
+      "url": "/assets/media/SUPPLIERS/EHU05/16373727660_fcee605a33_k_89.jpg",
+      "embed": "",
+      "width": "2048",
+      "height": "1029",
+      "title": " the Danube Folk Ensemble"
+    },
+    {
+      "id": 90,
+      "mime": "image/jpeg",
+      "url": "/assets/media/SUPPLIERS/EHU05/16535168666_7dd341c842_k_90.jpg",
+      "embed": "",
+      "width": "2048",
+      "height": "1352",
+      "title": "the Danube Folk Ensemble"
+    },
+    {
+      "id": 91,
+      "mime": "image/jpeg",
+      "url": "/assets/media/SUPPLIERS/EHU05/15938623734_4ed52a8160_k_91.jpg",
+      "embed": "",
+      "width": "2048",
+      "height": "1332",
+      "title": "the Danube Folk Ensemble"
+    },
+    {
+      "id": 92,
+      "mime": "image/jpeg",
+      "url": "/assets/media/SUPPLIERS/EHU05/16373726350_f366a21bbf_k_92.jpg",
+      "embed": "",
+      "width": "2048",
+      "height": "1339",
+      "title": "Danube Folk Ensemble "
+    }
+  ],
+  "waypoints": [
+    {
+      "latitude": "47.500235253540",
+      "longitude": "19.048694372177",
+      "type": "S",
+      "description": "Danube Palace"
+    }
+  ],
+  "cancellationPolicy": [
+    {
+      "cancelUpTo": "3600",
+      "cancelChargePerc": "50"
+    }
+  ],
+  "availableServices": [
+    {
+      "id": 5,
+      "title": "Portuguese"
+    }
+  ],
+  "liveGuides": [
+    {
+      "id": 5,
+      "language": "Portuguese",
+      "dateFrom": "2018-08-08",
+      "dateTo": "2018-09-08",
+      "days": "0101010",
+      "pricings": [
+        {
+          "price": "500",
+          "personType": "2",
+          "dayIndex": 2
+        }
+      ]
+    }
+  ],
+  "hasDisabledAccess": "Wheel chair accessible",
+  "sportTeam": null,
+  "targetGroup": "Everyone",
+  "title": "Folklore Show in Budapest - the Danube Folk Ensemble",
+  "overview": "Enjoy a 1,5-hour folk performance in Budapest, by the Danube Folk Ensemble. Founded in 1957, it is one of the most popular professional folk-dancing groups of Hungary. The ensemble consists of 24 dancers and 5 musicians, all of them so excellent in their profession, that you will be astonished. ",
+  "highlights": "<ul><li>Enjoy the extraordinary folk performance played by one of the most popular professional Hungarian folk dancing groups, the Danube Folk Ensemble </li><li>Indulge yourself with music and dance in historical Danube Palace</li></ul>",
+  "inclusion": "<ul><li>1,5 hour performance ticket in the chosen seating category</li><li>Upgrade your experience by adding one of the optional extras. Choose date, input number of participants and select your desired version from the drop-down list</li></ul>",
+  "exclusion": "<ul><li>Guiding</li><li>Hotel pickup and drop off</li></ul>",
+  "itinarery": "The Ensemble's repertoire includes some true gems of the Hungarian folk-dance tradition while the folk music is faithfully interpreted by its musicians; varied and broad it provides for numerous unique and full performances. The ensemble gives over a hundred performances yearly, including their weekly appearance at the Duna Palota! Besides presenting their own repertoire, they participate in various theater productions. \r\nEnjoy a unique performance by masterful artists in a stunning setting and get in touch with the real Hungarian traditions.",
+  "gettingThere": "<ul><li>Meet at Danube Palace at 19:30.</li><li>From Deak Square metro station (M1, M2, M3 metro lines): a 5-8 min walk from Deak Sq to Zrinyi Street by crossing the green park of Elisabeth Sq (Erzsebet ter), and then going straight ahead on Sas Street or Oktober 6 Street for a block to get to Zrinyi Street.</li></ul>",
+  "notes": "<ul><li>The performances take place at Zrínyi Street 5 at Danube Palace. </li><li>Every concert starts at 20:00, consisting of two 40-45 minutes long parts with an intermission in between. You have to be at the meeting place at least 30 minutes before the concert starts. </li><li>We have 3 different price categories for the Folklore Show, these categories are depending on the location of the seats in the theater.</li><li>Assigned seating: You will be assigned the best seats available in the chosen category at the time of purchase.</li><li>There are 4 different cruise options with dinner or drinks you can select from to upgrade your experience (as optional additions with surcharge). Please note however that only 1 type of dinner can be selected per booking. For couples, families or parties booking together, selecting the same dinner type is recommended, as different options are accommodated in different parts of the ship and seating cannot be together. Should you however accept separate seating in different part of the boat, you can make separate/ different selections</li><li>Check in at 19:00 o'clock - at the reception for the pick-up </li><li>Pick up & drop off service can be added as a supplement service with extra cost</li><li>In case you wish to confirm the optional pick up/ drop off service please note the following: 1. Provide the exact address and name of your accommodation within the city limits of Budapest during checkout. If you have not booked a hotel yet, you are required to provide this information to the local operator as soon as possible after your purchase. Also, provide your mobile number during checkout. 2. Be ready -at the reception of your accommodation- ONE HOUR PRIOR to the start of your activity and please note that the exact time of your pick up is based on the traffic and the popularity of the service on the selected date. In case you are staying in an accommodation without a reception desk, please wait outside of your accommodation for your chauffeur. 3.  Keep your phone charged and turned on, on the day of your activity. Also make sure that roaming services are enabled on your device so our colleagues will be able to get in touch. In case you are travelling from outside of Europe, make sure you are able to use your phone in Hungary. Answer your phone when our colleagues are calling you on the day of your activity</li><li>In case you would not like to use the drop off service we are not able to provide a refund</li><li>You are entitled to a refund in case your complaints reflect the errors of the organizing company and in case you have made a phone call to one of the aforementioned phone numbers at the site and time of the issue</li><li>This service is NOT a private transfer, we are not able to guarantee exclusivity during your transfer. We are not able to take responsibility from any delays caused by other guests </li><li>In case of you not showing up for the pick-up in time and miss the performance as a consequence, we will reschedule your event for a later time if are able to, but without the transfer service. If this is not possible or you leave Budapest and cannot attend on an alternative date, the organizer will not be able to refund money to you for any of these services</li><li>In case the aforementioned conditions are not met, we are not liable to provide a refund In case you have any queries regarding your pick up, drop off service please contact the local operator using the contact details listed on your voucher</li></ul>",
+  "address": "Zrínyi Street 5 ",
+  "timezone": "Europe/Budapest",
+  "city": "Budapest",
+  "country": "Hungary",
+  "categories": [
+    {
+      "id": "11",
+      "title": "Cultural Tours"
+    },
+    {
+      "id": "30",
+      "title": "Shows & Concerts"
+    },
+    {
+      "id": "33",
+      "title": "Theme Tours"
+    }
+  ],
+  "persons": [
+    {
+      "personDescription": " Everyone",
+      "personType": "8",
+      "fromPrice": "24.00",
+      "netPrice": "22.56"
+    }
+  ],
+  "reviews": [],
+  "source": "Tourboks",
+  "isTourboks": 1,
+  "status": {
+    "id": 200,
+    "message": "OK"
+  }
+}
