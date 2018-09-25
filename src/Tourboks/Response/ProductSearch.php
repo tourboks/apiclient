@@ -21,4 +21,22 @@ class ProductSearch extends TourboksResponse
         }
         return $products;
     }
+    
+    /**
+     * @return totalPages
+     */
+    public function getTotalPages()
+    {
+        $totalPages = $this->getBody()['totalPages'];
+        return $totalPages;
+    }
+    
+    /**
+     * @return totalRecords
+     */
+    public function getTotalRecords()
+    {
+        $totalRecords = $this->getBody()['totalRecords'];
+        return $totalRecords;
+    }
 }
