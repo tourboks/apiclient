@@ -135,6 +135,8 @@ class Product
 
     private $_rating;
 
+    private $_hasConfirmation;
+
 
     function __construct($product)
     {
@@ -144,6 +146,7 @@ class Product
         $this->setRetailPrice($product['retailPrice']);
         $this->setNetPrice($product['netPrice']);
 
+        $this->setProductStatus($product['hasConfirmation']);
         $this->setProductStatus($product['productStatus']);
         $this->setLatitude($product['latitude']);
         $this->setLongitude($product['longitude']);
@@ -1315,4 +1318,19 @@ class Product
         $this->_rating = $rating;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getHasConfirmation()
+    {
+        return $this->_hasConfirmation;
+    }
+
+    /**
+     * @param mixed $hasConfirmation
+     */
+    public function setHasConfirmation($hasConfirmation)
+    {
+        $this->_hasConfirmation = $hasConfirmation;
+    }
 }

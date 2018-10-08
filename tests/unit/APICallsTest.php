@@ -37,7 +37,7 @@ class APICallsTestCase extends TestCase
             'isBestSeller' => '',
             'meetTheLocals' => '',
             'distanceFrom' => [],
-            'hasConfirmation' => '',
+            'type' => 0,
             'showTestProducts' => 0
         ];
         $serverResponse = file_get_contents(dirname(__FILE__) . '/Fixture/productSearch.json', true);
