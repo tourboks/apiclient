@@ -7,9 +7,6 @@ use Tourboks\TourboksResponse;
 
 class ProductAvailableDates extends TourboksResponse
 {
-    /**
-     * @return Product[]
-     */
     public function getData()
     {
         $body = $this->getBody();

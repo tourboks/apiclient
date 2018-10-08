@@ -8,6 +8,10 @@ class Timeslot
     private $_timeFrom;
     private $_timeTo;
     private $_seasonID;
+    private $_componentKey;
+    private $_durationTime;
+    private $_onlinePrice;
+    private $_netPrice;
 
     public function __construct($timeslot)
     {
@@ -15,6 +19,10 @@ class Timeslot
         $this->setTimeFrom($timeslot['timeFrom']);
         $this->setTimeTo($timeslot['timeTo']);
         $this->setSeasonID($timeslot['seasonID']);
+        $this->setComponentKey($timeslot['componentKey']);
+        $this->setDurationTime($timeslot['durationTime']);
+        $this->setOnlinePrice($timeslot['onlinePrice']);
+        $this->setNetPrice($timeslot['netPrice']);
     }
 
     /**
@@ -80,4 +88,70 @@ class Timeslot
     {
         $this->_seasonID = $seasonID;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getComponentKey()
+    {
+        return $this->_componentKey;
+    }
+
+    /**
+     * @param mixed $componentKey
+     */
+    public function setComponentKey($componentKey)
+    {
+        $this->_componentKey = $componentKey;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDurationTime()
+    {
+        return $this->_durationTime;
+    }
+
+    /**
+     * @param mixed $durationTime
+     */
+    public function setDurationTime($durationTime)
+    {
+        $this->_durationTime = $durationTime;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getOnlinePrice()
+    {
+        return $this->_onlinePrice;
+    }
+
+    /**
+     * @param mixed $onlinePrice
+     */
+    public function setOnlinePrice($onlinePrice)
+    {
+        $this->_onlinePrice = $onlinePrice;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getNetPrice()
+    {
+        return $this->_netPrice;
+    }
+
+    /**
+     * @param mixed $netPrice
+     */
+    public function setNetPrice($netPrice)
+    {
+        $this->_netPrice = $netPrice;
+    }
+
+
 }
