@@ -11,15 +11,34 @@ class Order
     private $_totalOrderCostNetInCurrency;
     private $_bookingReferences;
     private $_orderItems;
+    private $_status;
 
     public function __construct($order)
     {
         $this->setOrderID($order['orderId'] ?: $order['id']);
+        $this->setStatus($order['orderStatus']);
         $this->setTotalOrderCost($order['total_order_cost']);
         $this->setTotalOrderCostInTransactionCurrency($order['total_order_cost_in_currency']);
         $this->setTotalOrderCostNet($order['total_order_cost_net']);
         $this->setTotalOrderCostNetInCurrency($order['total_order_cost_net_in_currency']);
         $this->setBookingReferences($order['bookingReferences']);
+        $this->setOrderItems($order['orderItems'] ?: $order['orderItem']);
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getStatus()
+    {
+        return $this->_status;
+    }
+
+    /**
+     * @param mixed $status
+     */
+    public function setStatus($status)
+    {
+        $this->_status = $status;
     }
 
     /**

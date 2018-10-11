@@ -3,12 +3,35 @@
     "id": 200,
     "message": "OK"
   },
-  "orderId": 5499,
-  "total_order_cost": 60.450000000000003,
-  "total_order_cost_in_currency": 60.450000000000003,
-  "total_order_cost_net": 60.450000000000003,
-  "total_order_cost_net_in_currency": 60.450000000000003,
+  "orderItem": [
+    {
+      "id": 6633,
+      "productId": 12,
+      "title": "Budapest Card",
+      "currency": "INR",
+      "totalProductCost": "1907.17",
+      "media": {
+        "id": 49,
+        "title": "Budapest Card - 24 Hours",
+        "URI": "https://tourboks.local/assets/media/",
+        "width": 1075,
+        "height": 702,
+        "mime": "image/jpeg"
+      },
+      "dateSelected": "2018-11-07",
+      "downloadInvoiceUrl": "",
+      "downloadVoucherUrl": "",
+      "invoiceUrl": "",
+      "voucherUrl": ""
+    }
+  ],
+  "orderId": 6789,
+  "orderStatus": "INITIALISED",
+  "total_order_cost": 22,
+  "total_order_cost_in_currency": 1907.1700000000001,
+  "total_order_cost_net": 20.899999999999999,
+  "total_order_cost_net_in_currency": 1811.8099999999999,
   "bookingReferences": [
-    "GB-000170-465-5499-5286"
+    "EHU05-12-6789-6633"
   ]
 }

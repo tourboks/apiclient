@@ -2,24 +2,24 @@
 
 namespace Tourboks\Response;
 
-use Tourboks\Model\Order;
+use Tourboks\Model\Order as OrderModel;
 use Tourboks\Model\OrderItem;
 use Tourboks\TourboksResponse;
 
-class OrderCreate extends TourboksResponse
+class Order extends TourboksResponse
 {
     /**
-     * @return Order
+     * @return OrderModel
      */
     public function getData()
     {
         $body = $this->getBody();
-        $order = new Order($body);
+        $order = new OrderModel($body);
+        $orderItems = [];
         foreach ($body['orderItem'] as $orderItem) {
-            $orderItems = [];
             $orderItems[] = new OrderItem($orderItem);
-            $order->setOrderItems($orderItems);
         }
+        $order->setOrderItems($orderItems);
         return $order;
     }
 }

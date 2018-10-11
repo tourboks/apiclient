@@ -5,27 +5,101 @@
   },
   "orders": [
     {
-      "id": 2235,
+      "id": 1021,
+      "orderStatus": "COMPLETED",
+      "total_order_cost": 0.02,
+      "total_order_cost_in_currency": 0.02,
+      "total_order_cost_net": 0.02,
+      "total_order_cost_net_in_currency": 0.02,
+      "bookingReferences": [
+        "TBTB01ID533D1467648000OID1021-623"
+      ],
       "orderItem": [
         {
-          "id": 1866,
-          "productId": 505,
-          "title": "Athens Shopping Therapy Tour",
+          "id": 623,
+          "productId": 533,
+          "title": "Auto Confirmation Test Tour (2 seasons 3 timeslots diff price)",
           "currency": "EUR",
-          "totalProductCost": "96.63",
+          "totalProductCost": 0.02,
           "media": {
-            "id": 2545,
-            "title": "Athens Shopping Therapy Tour",
+            "id": 1476,
+            "title": "",
             "URI": "/assets/media/",
-            "width": 900,
-            "height": 596,
+            "width": 1500,
+            "height": 1000,
             "mime": "image/jpeg"
           },
-          "dateSelected": "2017-06-13",
-          "downloadInvoiceUrl": "",
-          "downloadVoucherUrl": "",
-          "invoiceUrl": "",
-          "voucherUrl": ""
+          "dateSelected": "2016-07-04",
+          "downloadInvoiceUrl": "https://tourboks.local/site/download-pdf.php?file=invoice_O1021S94&user=41a17a_406",
+          "downloadVoucherUrl": "https://tourboks.local/site/download-pdf.php?file=voucher_oid_1021_623_pid_533&user=41a17a_406",
+          "invoiceUrl": "https://tourboks.local/assets/pdf/users/41a17a_406/invoice_O1021S94.pdf",
+          "voucherUrl": "https://tourboks.local/assets/pdf/users/41a17a_406/voucher_oid_1021_623_pid_533.pdf"
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "orderStatus": "COMPLETED",
+      "total_order_cost": 0.040000000000000001,
+      "total_order_cost_in_currency": 0.040000000000000001,
+      "total_order_cost_net": 0.040000000000000001,
+      "total_order_cost_net_in_currency": 0.040000000000000001,
+      "bookingReferences": [
+        "TBTB01ID533D1467388800OID1005-607"
+      ],
+      "orderItem": [
+        {
+          "id": 607,
+          "productId": 533,
+          "title": "Auto Confirmation Test Tour (2 seasons 3 timeslots diff price)",
+          "currency": "EUR",
+          "totalProductCost": 0.040000000000000001,
+          "media": {
+            "id": 1476,
+            "title": "",
+            "URI": "/assets/media/",
+            "width": 1500,
+            "height": 1000,
+            "mime": "image/jpeg"
+          },
+          "dateSelected": "2016-07-01",
+          "downloadInvoiceUrl": "https://tourboks.local/site/download-pdf.php?file=invoice_O1005S9",
+          "downloadVoucherUrl": "https://tourboks.local/site/download-pdf.php?file=voucher_oid_1005_607_pid_53",
+          "invoiceUrl": "https://tourboks.local/assets/pdf/users/invoice_O1005S9.pdf",
+          "voucherUrl": "https://tourboks.local/assets/pdf/users/voucher_oid_1005_607_pid_53.pdf"
+        }
+      ]
+    },
+    {
+      "id": 976,
+      "orderStatus": "COMPLETED",
+      "total_order_cost": 1,
+      "total_order_cost_in_currency": 1,
+      "total_order_cost_net": 1,
+      "total_order_cost_net_in_currency": 1,
+      "bookingReferences": [
+        "TBTB01ID535D1467216000OID976-578"
+      ],
+      "orderItem": [
+        {
+          "id": 578,
+          "productId": 535,
+          "title": "Auto Confirmation Test Tour (freesale - addon - variant)",
+          "currency": "EUR",
+          "totalProductCost": 1,
+          "media": {
+            "id": 2151,
+            "title": "",
+            "URI": "/assets/media/",
+            "width": 900,
+            "height": 700,
+            "mime": "image/jpeg"
+          },
+          "dateSelected": "2016-06-29",
+          "downloadInvoiceUrl": "https://tourboks.local/site/download-pdf.php?file=invoice_O976S9",
+          "downloadVoucherUrl": "https://tourboks.local/site/download-pdf.php?file=voucher_oid_976_578_pid_53",
+          "invoiceUrl": "https://tourboks.local/assets/pdf/invoice_O976S94.pdf",
+          "voucherUrl": "https://tourboks.local/assets/pdf/voucher_oid_976_578_pid_535.pdf"
         }
       ]
     }
