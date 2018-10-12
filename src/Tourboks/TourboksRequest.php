@@ -8,7 +8,7 @@ use Tourboks\Url\TourboksUrlManipulator;
 abstract class TourboksRequest
 {
     const BASE_AUTHORIZATION_URL_LIVE = 'https://api.tourboks.com';
-    const BASE_AUTHORIZATION_URL_STAGING = 'https://tourboks.local/api';
+    const BASE_AUTHORIZATION_URL_STAGING = 'https://api.staging.tourboks.com';
 
     protected $method;
     protected $endpoint;
